@@ -54,8 +54,8 @@ A **Content-Based Movie Recommendation System** built using **Streamlit**, **sci
 
 1. **Clone the repository**:
 
-       git clone https://github.com/yourusername/movie-recommendation-system.git
-       cd movie-recommendation-system
+       git clone https://github.com/2000pawan/Content_Based_Movie_Recommendation_System.git
+       cd Content_Based_Movie_Recommendation_System
 2. Install dependencies:
 
        pip install -r requirements.txt
