@@ -1,6 +1,6 @@
 # 🎬 Movie Recommendation System
 
-A **Content-Based Movie Recommendation System** built using **Streamlit**, **scikit-learn**, and **OMDb API**, which recommends movies based on their descriptions. Posters and summaries are fetched live using the OMDb API.
+A **Content-Based Movie Recommendation System** built using **Streamlit**, **scikit-learn**, and **OMDb API**, which recommends movies based on their descriptions. Posters are fetched live using the OMDb API.
 
 ---
 
