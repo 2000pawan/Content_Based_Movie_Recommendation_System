@@ -6,7 +6,7 @@ from sklearn.neighbors import NearestNeighbors
 from PIL import Image
 
 # ✅ Load and clean the dataset
-df = pd.read_csv("G:/dataset/recommend/movies_content.csv")
+df = pd.read_csv("movies_content.csv")
 df = df.iloc[:, [-1, 1]]  # Assuming last column = title, 2nd = description
 df.columns = ['title', 'description']
 df.drop_duplicates(inplace=True)
