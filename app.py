@@ -93,7 +93,7 @@ if st.button("Show Recommendation"):
                     unsafe_allow_html=True
                 )
                 st.text(names[i])
-                st.caption(plots[i])
+                # st.caption(plots[i])
 
 # Footer
 st.markdown(
