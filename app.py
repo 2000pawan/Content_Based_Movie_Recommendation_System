@@ -16,7 +16,7 @@ OMDB_API_KEY = os.getenv("OMDB_API_KEY")
 DEFAULT_POSTER = "https://via.placeholder.com/300x450.png?text=No+Poster"
 
 # Load and preprocess data
-df = pd.read_csv("G:/dataset/recommend/movies_content.csv")
+df = pd.read_csv("movies_content.csv")
 df = df.iloc[:, [-1, 1]]
 df.drop_duplicates(inplace=True)
 df.dropna(inplace=True)
