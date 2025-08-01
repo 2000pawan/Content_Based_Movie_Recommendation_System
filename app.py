@@ -5,14 +5,9 @@ import requests
 from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
 from sklearn.neighbors import NearestNeighbors
 from PIL import Image
-from dotenv import load_dotenv
-import os
 
-# Load environment variables
-load_dotenv()
-OMDB_API_KEY = os.getenv("OMDB_API_KEY")
 
-# Constants
+OMDB_API_KEY = st.secrets["OMDB_API_KEY"]
 DEFAULT_POSTER = "https://via.placeholder.com/300x450.png?text=No+Poster"
 
 # Load and preprocess data
